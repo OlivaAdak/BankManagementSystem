@@ -1,0 +1,53 @@
+﻿@model IEnumerable<BankManagementMVC.Models.BranchMVC>
+
+@{
+    ViewData["Title"] = "GetDetails";
+}
+
+<h1>GetDetails</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BranchId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IFSC)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BranchId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IFSC)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.BranchId }) 
+                @Html.ActionLink("Details", "Details", new { id = item.BranchId }) 
+                @Html.ActionLink("Delete", "Delete", new { id = item.BranchId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

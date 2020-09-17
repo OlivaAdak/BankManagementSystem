@@ -1,0 +1,697 @@
+INFO  03:59:27 Application started. Press Ctrl+C to shut down.
+INFO  03:59:27 Application started. Press Ctrl+C to shut down.
+INFO  03:59:27 Hosting environment: Development
+INFO  03:59:27 Hosting environment: Development
+INFO  03:59:27 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  03:59:27 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  04:06:25 Application started. Press Ctrl+C to shut down.
+INFO  04:06:25 Application started. Press Ctrl+C to shut down.
+INFO  04:06:25 Hosting environment: Development
+INFO  04:06:25 Hosting environment: Development
+INFO  04:06:25 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  04:06:25 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  04:41:39 Application started. Press Ctrl+C to shut down.
+INFO  04:41:39 Application started. Press Ctrl+C to shut down.
+INFO  04:41:39 Hosting environment: Development
+INFO  04:41:39 Hosting environment: Development
+INFO  04:41:39 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  04:41:39 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  08:53:26 Application started. Press Ctrl+C to shut down.
+INFO  08:53:26 Application started. Press Ctrl+C to shut down.
+INFO  08:53:26 Hosting environment: Development
+INFO  08:53:26 Hosting environment: Development
+INFO  08:53:26 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  08:53:26 Content root path: C:\Users\oliva\source\repos\BankManagement
+ERROR 08:53:40 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+BankManagement.Controllers.Customer_DetailsController.GetAuditBenchmark (BankManagement)
+BankManagement.Controllers.Customer_DetailsController.Get (BankManagement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 08:53:40 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+BankManagement.Controllers.Customer_DetailsController.GetAuditBenchmark (BankManagement)
+BankManagement.Controllers.Customer_DetailsController.Get (BankManagement)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  08:56:16 Application started. Press Ctrl+C to shut down.
+INFO  08:56:16 Application started. Press Ctrl+C to shut down.
+INFO  08:56:16 Hosting environment: Development
+INFO  08:56:16 Hosting environment: Development
+INFO  08:56:16 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  08:56:16 Content root path: C:\Users\oliva\source\repos\BankManagement
+ERROR 08:56:25 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'BankManagement.Controllers.Customer_DetailsController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 08:56:25 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'BankManagement.Controllers.Customer_DetailsController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  08:57:54 Application started. Press Ctrl+C to shut down.
+INFO  08:57:54 Application started. Press Ctrl+C to shut down.
+INFO  08:57:54 Hosting environment: Development
+INFO  08:57:54 Hosting environment: Development
+INFO  08:57:54 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  08:57:54 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  08:58:00  Http GET request
+INFO  09:04:18 Application started. Press Ctrl+C to shut down.
+INFO  09:04:18 Application started. Press Ctrl+C to shut down.
+INFO  09:04:18 Hosting environment: Development
+INFO  09:04:18 Hosting environment: Development
+INFO  09:04:18 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  09:04:18 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  09:04:24  Http GET request
+INFO  09:05:21 Application started. Press Ctrl+C to shut down.
+INFO  09:05:21 Application started. Press Ctrl+C to shut down.
+INFO  09:05:21 Hosting environment: Development
+INFO  09:05:21 Hosting environment: Development
+INFO  09:05:21 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  09:05:21 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  09:05:26  Http GET request
+INFO  09:06:38  Http GET request
+INFO  09:06:44  Http GET_BY_ID request
+INFO  09:44:51 Application started. Press Ctrl+C to shut down.
+INFO  09:44:51 Application started. Press Ctrl+C to shut down.
+INFO  09:44:51 Hosting environment: Development
+INFO  09:44:51 Hosting environment: Development
+INFO  09:44:51 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  09:44:51 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  09:45:10 Http GET Request
+INFO  09:48:55 Application started. Press Ctrl+C to shut down.
+INFO  09:48:55 Application started. Press Ctrl+C to shut down.
+INFO  09:48:55 Hosting environment: Development
+INFO  09:48:55 Hosting environment: Development
+INFO  09:48:55 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  09:48:55 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  09:49:08 Http GET Request For Branch Details
+INFO  09:49:19 Http GET_BY_ID Request For Branch Details
+INFO  09:50:08  Http GET_BY_ID request For Customer Details
+INFO  10:06:39 Application started. Press Ctrl+C to shut down.
+INFO  10:06:39 Application started. Press Ctrl+C to shut down.
+INFO  10:06:39 Hosting environment: Development
+INFO  10:06:39 Hosting environment: Development
+INFO  10:06:39 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  10:06:39 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  10:08:00 Application started. Press Ctrl+C to shut down.
+INFO  10:08:00 Application started. Press Ctrl+C to shut down.
+INFO  10:08:00 Hosting environment: Development
+INFO  10:08:00 Hosting environment: Development
+INFO  10:08:00 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  10:08:00 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  10:09:21 Http GET Request For Branch Details
+INFO  10:16:41 Application started. Press Ctrl+C to shut down.
+INFO  10:16:41 Application started. Press Ctrl+C to shut down.
+INFO  10:16:41 Hosting environment: Development
+INFO  10:16:41 Hosting environment: Development
+INFO  10:16:41 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  10:16:41 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  11:03:33 Application started. Press Ctrl+C to shut down.
+INFO  11:03:33 Application started. Press Ctrl+C to shut down.
+INFO  11:03:33 Hosting environment: Development
+INFO  11:03:33 Hosting environment: Development
+INFO  11:03:33 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  11:03:33 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  11:03:48  Http GET request For Customer Details
+INFO  11:06:18  Http GET request For Customer Details
+INFO  11:07:05  Http GET request For Customer Details
+INFO  02:00:25 Application started. Press Ctrl+C to shut down.
+INFO  02:00:25 Application started. Press Ctrl+C to shut down.
+INFO  02:00:25 Hosting environment: Development
+INFO  02:00:25 Hosting environment: Development
+INFO  02:00:25 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  02:00:25 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  02:01:20  Http GET request For Customer Details
+INFO  02:26:46 Application started. Press Ctrl+C to shut down.
+INFO  02:26:46 Application started. Press Ctrl+C to shut down.
+INFO  02:26:46 Hosting environment: Development
+INFO  02:26:46 Hosting environment: Development
+INFO  02:26:46 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  02:26:46 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  02:26:53  Http GET request For Customer Details
+INFO  04:50:41 Application started. Press Ctrl+C to shut down.
+INFO  04:50:41 Application started. Press Ctrl+C to shut down.
+INFO  04:50:41 Hosting environment: Development
+INFO  04:50:41 Hosting environment: Development
+INFO  04:50:41 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  04:50:41 Content root path: C:\Users\oliva\source\repos\BankManagement
+ERROR 04:51:48 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BankManagement.Repository.Icustomer' while attempting to activate 'BankManagement.Controllers.Customer_DetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:51:48 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BankManagement.Repository.Icustomer' while attempting to activate 'BankManagement.Controllers.Customer_DetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  06:37:19 Application started. Press Ctrl+C to shut down.
+INFO  06:37:19 Application started. Press Ctrl+C to shut down.
+INFO  06:37:19 Hosting environment: Development
+INFO  06:37:19 Hosting environment: Development
+INFO  06:37:19 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  06:37:19 Content root path: C:\Users\oliva\source\repos\BankManagement
+ERROR 06:37:28 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BankManagement.Repository.Icustomer' while attempting to activate 'BankManagement.Controllers.Customer_DetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 06:37:28 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BankManagement.Repository.Icustomer' while attempting to activate 'BankManagement.Controllers.Customer_DetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  10:52:39 Application started. Press Ctrl+C to shut down.
+INFO  10:52:39 Application started. Press Ctrl+C to shut down.
+INFO  10:52:40 Hosting environment: Development
+INFO  10:52:40 Hosting environment: Development
+INFO  10:52:40 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  10:52:40 Content root path: C:\Users\oliva\source\repos\BankManagement
+ERROR 10:52:52 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BankManagement.Repository.Icustomer' while attempting to activate 'BankManagement.Controllers.Customer_DetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 10:52:52 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BankManagement.Repository.Icustomer' while attempting to activate 'BankManagement.Controllers.Customer_DetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:55:18 Application started. Press Ctrl+C to shut down.
+INFO  11:55:18 Application started. Press Ctrl+C to shut down.
+INFO  11:55:18 Hosting environment: Development
+INFO  11:55:18 Hosting environment: Development
+INFO  11:55:18 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  11:55:18 Content root path: C:\Users\oliva\source\repos\BankManagement
+ERROR 11:55:19 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BankManagement.Repository.Icustomer' while attempting to activate 'BankManagement.Controllers.Customer_DetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:55:19 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BankManagement.Repository.Icustomer' while attempting to activate 'BankManagement.Controllers.Customer_DetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:55:59 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BankManagement.Repository.Icustomer' while attempting to activate 'BankManagement.Controllers.Customer_DetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:55:59 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BankManagement.Repository.Icustomer' while attempting to activate 'BankManagement.Controllers.Customer_DetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  12:18:21 Application started. Press Ctrl+C to shut down.
+INFO  12:18:21 Application started. Press Ctrl+C to shut down.
+INFO  12:18:21 Hosting environment: Development
+INFO  12:18:21 Hosting environment: Development
+INFO  12:18:21 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  12:18:21 Content root path: C:\Users\oliva\source\repos\BankManagement
+ERROR 12:18:27 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BankManagement.Repository.Icustomer' while attempting to activate 'BankManagement.Controllers.Customer_DetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 12:18:27 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BankManagement.Repository.Icustomer' while attempting to activate 'BankManagement.Controllers.Customer_DetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  12:46:25 Application started. Press Ctrl+C to shut down.
+INFO  12:46:25 Application started. Press Ctrl+C to shut down.
+INFO  12:46:25 Hosting environment: Development
+INFO  12:46:25 Hosting environment: Development
+INFO  12:46:25 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  12:46:25 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  12:46:54  Http GET request For Customer Details
+INFO  01:36:58 Application started. Press Ctrl+C to shut down.
+INFO  01:36:58 Application started. Press Ctrl+C to shut down.
+INFO  01:36:58 Hosting environment: Development
+INFO  01:36:58 Hosting environment: Development
+INFO  01:36:58 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  01:36:58 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  01:37:03  Http GET request For Customer Details
+INFO  01:37:23  Http GET request For Customer Details
+INFO  04:39:03 Application started. Press Ctrl+C to shut down.
+INFO  04:39:03 Application started. Press Ctrl+C to shut down.
+INFO  04:39:04 Hosting environment: Development
+INFO  04:39:04 Hosting environment: Development
+INFO  04:39:04 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  04:39:04 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  04:39:12  Http GET request For Customer Details
+ERROR 04:39:23 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BankManagement.Repository.Ibranch' while attempting to activate 'BankManagement.Controllers.Branch_DetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:39:23 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BankManagement.Repository.Ibranch' while attempting to activate 'BankManagement.Controllers.Branch_DetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:40:48 Application started. Press Ctrl+C to shut down.
+INFO  04:40:48 Application started. Press Ctrl+C to shut down.
+INFO  04:40:48 Hosting environment: Development
+INFO  04:40:48 Hosting environment: Development
+INFO  04:40:48 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  04:40:48 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  04:40:53  Http GET request For Customer Details
+INFO  04:52:36 Application started. Press Ctrl+C to shut down.
+INFO  04:52:36 Application started. Press Ctrl+C to shut down.
+INFO  04:52:36 Hosting environment: Development
+INFO  04:52:36 Hosting environment: Development
+INFO  04:52:36 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  04:52:36 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  04:53:17  Http GET request For Customer Details
+INFO  04:54:45  Http GET request For Customer Details
+INFO  05:12:02 Application started. Press Ctrl+C to shut down.
+INFO  05:12:02 Application started. Press Ctrl+C to shut down.
+INFO  05:12:02 Hosting environment: Development
+INFO  05:12:02 Hosting environment: Development
+INFO  05:12:02 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  05:12:02 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  05:13:00 Http POST Request For Branch Details
+ERROR 05:13:03 Failed executing DbCommand (848ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 5), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Branches] ([BranchId], [CustomerId], [IFSC], [Location])
+VALUES (@p0, @p1, @p2, @p3);
+ERROR 05:13:03 Failed executing DbCommand (848ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 5), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Branches] ([BranchId], [CustomerId], [IFSC], [Location])
+VALUES (@p0, @p1, @p2, @p3);
+ERROR 05:13:03 An exception occurred in the database while saving changes for context type 'BankManagement.Models.BankDBContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Branches' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:23b55975-c3d7-442d-b8a7-e3e59e63f218
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Branches' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:23b55975-c3d7-442d-b8a7-e3e59e63f218
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+ERROR 05:13:03 An exception occurred in the database while saving changes for context type 'BankManagement.Models.BankDBContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Branches' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:23b55975-c3d7-442d-b8a7-e3e59e63f218
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Branches' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:23b55975-c3d7-442d-b8a7-e3e59e63f218
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+INFO  05:13:48 Http POST Request For Branch Details
+INFO  05:14:04  Http GET request For Customer Details
+INFO  05:18:08 Application started. Press Ctrl+C to shut down.
+INFO  05:18:08 Application started. Press Ctrl+C to shut down.
+INFO  05:18:08 Hosting environment: Development
+INFO  05:18:08 Hosting environment: Development
+INFO  05:18:08 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  05:18:08 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  05:18:23 Http GET_BY_ID Request For Branch Details
+INFO  05:31:43 Application started. Press Ctrl+C to shut down.
+INFO  05:31:43 Application started. Press Ctrl+C to shut down.
+INFO  05:31:43 Hosting environment: Development
+INFO  05:31:43 Hosting environment: Development
+INFO  05:31:43 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  05:31:43 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  05:32:18  Http GET request For Customer Details
+INFO  05:32:34 Http PUT Request For Branch Details
+INFO  05:35:36 Application started. Press Ctrl+C to shut down.
+INFO  05:35:36 Application started. Press Ctrl+C to shut down.
+INFO  05:35:36 Hosting environment: Development
+INFO  05:35:36 Hosting environment: Development
+INFO  05:35:36 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  05:35:36 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  05:35:52 Http PUT Request For Branch Details
+INFO  05:37:54 Application started. Press Ctrl+C to shut down.
+INFO  05:37:54 Application started. Press Ctrl+C to shut down.
+INFO  05:37:54 Hosting environment: Development
+INFO  05:37:54 Hosting environment: Development
+INFO  05:37:54 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  05:37:54 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  05:38:13 Http PUT Request For Branch Details
+INFO  05:38:43  Http GET request For Customer Details
+INFO  05:39:53 Application started. Press Ctrl+C to shut down.
+INFO  05:39:53 Application started. Press Ctrl+C to shut down.
+INFO  05:39:53 Hosting environment: Development
+INFO  05:39:53 Hosting environment: Development
+INFO  05:39:53 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  05:39:53 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  05:40:27 Http PUT Request For Branch Details
+INFO  05:41:14 Http PUT Request For Branch Details
+INFO  05:41:49  Http GET request For Customer Details
+INFO  05:43:44  Http GET request For Customer Details
+INFO  05:56:27 Application started. Press Ctrl+C to shut down.
+INFO  05:56:27 Application started. Press Ctrl+C to shut down.
+INFO  05:56:27 Hosting environment: Development
+INFO  05:56:27 Hosting environment: Development
+INFO  05:56:27 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  05:56:27 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  05:56:46  Http GET request For Customer Details
+INFO  09:39:35 Application started. Press Ctrl+C to shut down.
+INFO  09:39:35 Application started. Press Ctrl+C to shut down.
+INFO  09:39:35 Hosting environment: Development
+INFO  09:39:35 Hosting environment: Development
+INFO  09:39:35 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  09:39:35 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  09:39:52  Http GET request For Customer Details
+INFO  09:41:17  Http GET request For Customer Details
+INFO  09:41:35  Http GET request For Customer Details
+INFO  09:43:14 Http POST Request For Branch Details
+INFO  09:43:22  Http GET request For Customer Details
+INFO  11:31:49 Application started. Press Ctrl+C to shut down.
+INFO  11:31:49 Application started. Press Ctrl+C to shut down.
+INFO  11:31:49 Hosting environment: Development
+INFO  11:31:49 Hosting environment: Development
+INFO  11:31:49 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  11:31:49 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  11:32:02  Http GET request For Customer Details
+INFO  11:33:29  Http GET request For Customer Details
+INFO  11:45:04 Application started. Press Ctrl+C to shut down.
+INFO  11:45:04 Application started. Press Ctrl+C to shut down.
+INFO  11:45:04 Hosting environment: Development
+INFO  11:45:04 Hosting environment: Development
+INFO  11:45:05 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  11:45:05 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  11:45:09  Http GET request For Customer Details
+INFO  11:45:28  Http GET request For Customer Details
+INFO  11:46:09  Http GET request For Customer Details
+INFO  11:46:56  Http GET request For Customer Details
+INFO  11:47:12 Http GET_BY_ID Request For Branch Details
+INFO  11:48:19  Http GET request For Customer Details
+INFO  11:49:27 Http POST Request For Branch Details
+INFO  11:49:41  Http GET request For Customer Details
+INFO  11:50:21 Http PUT Request For Branch Details
+INFO  12:06:55 Application started. Press Ctrl+C to shut down.
+INFO  12:06:55 Application started. Press Ctrl+C to shut down.
+INFO  12:06:55 Hosting environment: Development
+INFO  12:06:55 Hosting environment: Development
+INFO  12:06:55 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  12:06:55 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  12:07:04  Http GET request For Customer Details
+INFO  12:08:11 Http PUT Request For Branch Details
+INFO  12:08:35  Http GET request For Customer Details
+INFO  12:38:33 Application started. Press Ctrl+C to shut down.
+INFO  12:38:33 Application started. Press Ctrl+C to shut down.
+INFO  12:38:33 Hosting environment: Development
+INFO  12:38:33 Hosting environment: Development
+INFO  12:38:33 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  12:38:33 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  12:39:39 Application started. Press Ctrl+C to shut down.
+INFO  12:39:39 Application started. Press Ctrl+C to shut down.
+INFO  12:39:39 Hosting environment: Development
+INFO  12:39:39 Hosting environment: Development
+INFO  12:39:39 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  12:39:39 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  12:39:46  Http GET request For Customer Details
+INFO  12:40:19  Http GET request For Customer Details
+INFO  12:41:09 Http POST Request For Branch Details
+INFO  12:41:26  Http GET request For Customer Details
+INFO  12:41:49 Http GET_BY_ID Request For Branch Details
+INFO  12:42:03 Http GET_BY_ID Request For Branch Details
+INFO  12:43:02 Http PUT Request For Branch Details
+INFO  12:44:03 Http PUT Request For Branch Details
+INFO  12:44:14  Http GET request For Customer Details
+INFO  12:45:04 Http DELETE Request For Branch Details
+INFO  12:45:12  Http GET request For Customer Details
+INFO  12:45:34 Http GET_BY_ID Request For Branch Details
+INFO  12:45:44  Http GET request For Customer Details
+INFO  01:00:50 Application started. Press Ctrl+C to shut down.
+INFO  01:00:50 Application started. Press Ctrl+C to shut down.
+INFO  01:00:50 Hosting environment: Development
+INFO  01:00:50 Hosting environment: Development
+INFO  01:00:50 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  01:00:50 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  01:01:22  Http GET request For Customer Details
+INFO  01:01:41  Http GET request For Customer Details
+INFO  01:04:08  Http GET request For Customer Details
+INFO  01:04:11  Http GET request For Customer Details
+INFO  01:05:38  Http GET request For Customer Details
+INFO  11:43:32 Application started. Press Ctrl+C to shut down.
+INFO  11:43:32 Application started. Press Ctrl+C to shut down.
+INFO  11:43:32 Hosting environment: Development
+INFO  11:43:32 Hosting environment: Development
+INFO  11:43:32 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  11:43:32 Content root path: C:\Users\oliva\source\repos\BankManagement
+INFO  11:44:06  Http GET request For Customer Details
+INFO  11:44:20  Http GET request For Customer Details
